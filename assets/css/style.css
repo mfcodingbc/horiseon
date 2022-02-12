@@ -1,4 +1,4 @@
-/* Apply to everything */
+/* This Selector applies to everything */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,7 +24,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Moved 'a' and 'p' selectors to group with other generic selectors for better organization. */
+/* Moved 'a' and 'p' selectors to group with other generic selectors for better code organization. */
 
 /* Body Selectors */
 body {
@@ -100,7 +100,7 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Consolidated all content div element classes into 'content-box' class for better organization of code. */
+/* Consolidated all content div element classes into 'content-box' class for better code organization. */
 /* Content classes moved into a group for better organization of code. */
 
 /* Benefits Selectors */
@@ -115,57 +115,23 @@ body {
     background-color: #2589bd;
 }
 
-.benefit-title {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.benefit-lead {
+.benefit-group {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-group h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-group img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Consolidated all benefit div element classes into 'benefit-group' class for better code organization. */
+/* Removed 'benefit-title' class as it does not exist in the HTML file. */
 
 /* Footer Selectors */
 .footer {
